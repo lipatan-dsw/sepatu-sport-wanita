@@ -1,5 +1,5 @@
-title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,image1,image2,image3,image4,image5,product,price,hargajual,profit,sku,kondisi
-Jual Sepatu Olahraga / Sport / Running Wanita - HF 019 Murah,hf-019,"
+title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,image1,image2,image3,image4,image5,product,price,hargadropship,minimalprice,sku,kondisi
+Jual Sepatu Sport Wanita - DA 044 Murah,da-044,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -24,7 +24,7 @@ Jual Sepatu Olahraga / Sport / Running Wanita - HF 019 Murah,hf-019,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -47,18 +47,8 @@ Jual Sepatu Olahraga / Sport / Running Wanita - HF 019 Murah,hf-019,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Sepatu Olahraga / Sport / Running Wanita - HF 019 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : HF 019<br/>Warna : PINK<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 1000 gram<br/>Info Lainnya = SOL : PIU<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sepatu Sport Wanita - DA 044 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : DA 044<br/>Warna : ABU ABU<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 900 gram<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
-                    </div>
-                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -70,8 +60,8 @@ Jual Sepatu Olahraga / Sport / Running Wanita - HF 019 Murah,hf-019,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,sepatu-sport-wanita,catenzo,sepatu-sport-wanita,catenzo,"Sepatu Sport Wanita Bahan SINTETIS, Ukuran 36 ~ 40, Warna PINK",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/hf-019.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/hf-019-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/hf-019-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/hf-019-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/hf-019-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/hf-019-e.jpg,Sepatu Olahraga / Sport / Running Wanita - HF 019,Rp 130.900,Rp 150.900,Rp 20.000,HF 019,Baru
-Jual Sepatu Olahraga / Sport / Running Wanita - MR 785 Murah,mr-785,"
+     </div><!--/category-tab-->",2019-01-16,html,sepatu-sport-wanita,catenzo,sepatu-sport-wanita,catenzo,"Sepatu Sport Wanita Bahan SINTETIS, Warna ABU ABU, Size 36 ~ 40",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/da-044.jpg,-/-,-/-,-/-,-/-,-/-,Sepatu Sport Wanita - DA 044,Rp 166.900,Rp 136.900,Rp 150.900,DA 044,Baru
+Jual Sepatu Sport Wanita - HM 015 Murah,hm-015,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -96,7 +86,7 @@ Jual Sepatu Olahraga / Sport / Running Wanita - MR 785 Murah,mr-785,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -119,18 +109,8 @@ Jual Sepatu Olahraga / Sport / Running Wanita - MR 785 Murah,mr-785,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Sepatu Olahraga / Sport / Running Wanita - MR 785 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : MR 785<br/>Warna : MERAH<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 1000 gram<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sepatu Sport Wanita - HM 015 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : HM 015<br/>Warna : HITAM<br/>Bahan : CANVAS<br/>Ukuran : 36 ~ 40<br/>Berat : 900 gram<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
-                    </div>
-                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -142,8 +122,8 @@ Jual Sepatu Olahraga / Sport / Running Wanita - MR 785 Murah,mr-785,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,sepatu-sport-wanita,catenzo,sepatu-sport-wanita,catenzo,"Sepatu Sport Wanita Bahan SINTETIS, Ukuran 36 ~ 40, Warna MERAH",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/mr-785.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/mr-785-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/mr-785-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/mr-785-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/mr-785-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/mr-785-e.jpg,Sepatu Olahraga / Sport / Running Wanita - MR 785,Rp 139.900,Rp 160.900,Rp 21.000,MR 785,Baru
-Jual Sepatu Olahraga / Sport / Running Wanita - UR 010 Murah,ur-010,"
+     </div><!--/category-tab-->",2019-01-16,html,sepatu-sport-wanita,catenzo,sepatu-sport-wanita,catenzo,"Sepatu Sport Wanita Bahan CANVAS, Warna HITAM, Size 36 ~ 40",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/hm-015.jpg,-/-,-/-,-/-,-/-,-/-,Sepatu Sport Wanita - HM 015,Rp 168.900,Rp 137.900,Rp 151.900,HM 015,Baru
+Jual Sepatu Sport Wanita - IR 059 Murah,ir-059,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -168,7 +148,7 @@ Jual Sepatu Olahraga / Sport / Running Wanita - UR 010 Murah,ur-010,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -191,18 +171,8 @@ Jual Sepatu Olahraga / Sport / Running Wanita - UR 010 Murah,ur-010,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Sepatu Olahraga / Sport / Running Wanita - UR 010 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : UR 010<br/>Warna : ABU ABU<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 1000 gram<br/>Info Lainnya = SOL : TPR , BAHAN : NYLON MESH<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sepatu Sport Wanita - IR 059 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : IR 059<br/>Warna : PUTIH<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 900 gram<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
-                    </div>
-                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -214,8 +184,8 @@ Jual Sepatu Olahraga / Sport / Running Wanita - UR 010 Murah,ur-010,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,sepatu-sport-wanita,catenzo,sepatu-sport-wanita,catenzo,"Sepatu Sport Wanita Bahan SINTETIS, Ukuran 36 ~ 40, Warna ABU ABU",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/ur-010.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ur-010-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ur-010-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ur-010-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ur-010-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ur-010-e.jpg,Sepatu Olahraga / Sport / Running Wanita - UR 010,Rp 133.900,Rp 153.900,Rp 20.000,UR 010,Baru
-Jual Sepatu Olahraga / Sport / Running Wanita - IR 057 Murah,ir-057,"
+     </div><!--/category-tab-->",2019-01-16,html,sepatu-sport-wanita,catenzo,sepatu-sport-wanita,catenzo,"Sepatu Sport Wanita Bahan SINTETIS, Warna PUTIH, Size 36 ~ 40",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/ir-059.jpg,-/-,-/-,-/-,-/-,-/-,Sepatu Sport Wanita - IR 059,Rp 170.900,Rp 139.900,Rp 153.900,IR 059,Baru
+Jual Sepatu Sport Wanita - IM 017 Murah,im-017,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -240,7 +210,7 @@ Jual Sepatu Olahraga / Sport / Running Wanita - IR 057 Murah,ir-057,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -263,18 +233,8 @@ Jual Sepatu Olahraga / Sport / Running Wanita - IR 057 Murah,ir-057,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Sepatu Olahraga / Sport / Running Wanita - IR 057 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Wanita ini terbuat dari bahan CANVAS.<br/>Kode : IR 057<br/>Warna : BIRU<br/>Bahan : CANVAS<br/>Ukuran : 36 ~ 40<br/>Berat : 1000 gram<br/>Info Lainnya = SOL : PIU<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sepatu Sport Wanita - IM 017 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : IM 017<br/>Warna : HITAM KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 900 gram<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
-                    </div>
-                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -286,8 +246,8 @@ Jual Sepatu Olahraga / Sport / Running Wanita - IR 057 Murah,ir-057,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,sepatu-sport-wanita,catenzo,sepatu-sport-wanita,catenzo,"Sepatu Sport Wanita Bahan CANVAS, Ukuran 36 ~ 40, Warna BIRU",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/ir-057.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ir-057-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ir-057-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ir-057-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ir-057-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ir-057-e.jpg,Sepatu Olahraga / Sport / Running Wanita - IR 057,Rp 128.900,Rp 148.900,Rp 20.000,IR 057,Baru
-Jual Sepatu Olahraga / Sport / Running Wanita - IR 002 Murah,ir-002,"
+     </div><!--/category-tab-->",2019-01-16,html,sepatu-sport-wanita,catenzo,sepatu-sport-wanita,catenzo,"Sepatu Sport Wanita Bahan SINTETIS, Warna HITAM KOMBINASI, Size 36 ~ 40",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/im-017.jpg,-/-,-/-,-/-,-/-,-/-,Sepatu Sport Wanita - IM 017,Rp 157.900,Rp 128.900,Rp 141.900,IM 017,Baru
+Jual Sepatu Sport Wanita - IR 045 Murah,ir-045,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -312,7 +272,7 @@ Jual Sepatu Olahraga / Sport / Running Wanita - IR 002 Murah,ir-002,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -335,18 +295,8 @@ Jual Sepatu Olahraga / Sport / Running Wanita - IR 002 Murah,ir-002,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Sepatu Olahraga / Sport / Running Wanita - IR 002 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : IR 002<br/>Warna : ABU KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 1000 gram<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sepatu Sport Wanita - IR 045 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : IR 045<br/>Warna : HIJAU TOSKA<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 900 gram<br/>Info Lainnya = SOL : PIU<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
-                    </div>
-                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -358,8 +308,8 @@ Jual Sepatu Olahraga / Sport / Running Wanita - IR 002 Murah,ir-002,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,sepatu-sport-wanita,catenzo,sepatu-sport-wanita,catenzo,"Sepatu Sport Wanita Bahan SINTETIS, Ukuran 36 ~ 40, Warna ABU KOMBINASI",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/ir-002.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ir-002-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ir-002-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ir-002-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ir-002-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ir-002-e.jpg,Sepatu Olahraga / Sport / Running Wanita - IR 002,Rp 125.900,Rp 144.900,Rp 19.000,IR 002,Baru
-Jual Sepatu Olahraga / Sport / Running Wanita - SN 104 Murah,sn-104,"
+     </div><!--/category-tab-->",2019-01-16,html,sepatu-sport-wanita,catenzo,sepatu-sport-wanita,catenzo,"Sepatu Sport Wanita Bahan SINTETIS, Warna HIJAU TOSKA, Size 36 ~ 40",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/ir-045.jpg,-/-,-/-,-/-,-/-,-/-,Sepatu Sport Wanita - IR 045,Rp 170.900,Rp 139.900,Rp 153.900,IR 045,Baru
+Jual Sepatu Sport Wanita - DF 064 Murah,df-064,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -384,7 +334,7 @@ Jual Sepatu Olahraga / Sport / Running Wanita - SN 104 Murah,sn-104,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -407,18 +357,8 @@ Jual Sepatu Olahraga / Sport / Running Wanita - SN 104 Murah,sn-104,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Sepatu Olahraga / Sport / Running Wanita - SN 104 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : SN 104<br/>Warna : BIRU<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 1000 gram<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sepatu Sport Wanita - DF 064 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : DF 064<br/>Warna : MERAH KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 900 gram<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
-                    </div>
-                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -430,8 +370,8 @@ Jual Sepatu Olahraga / Sport / Running Wanita - SN 104 Murah,sn-104,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,sepatu-sport-wanita,catenzo,sepatu-sport-wanita,catenzo,"Sepatu Sport Wanita Bahan SINTETIS, Ukuran 36 ~ 40, Warna BIRU",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/sn-104.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/sn-104-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/sn-104-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/sn-104-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/sn-104-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/sn-104-e.jpg,Sepatu Olahraga / Sport / Running Wanita - SN 104,Rp 117.900,Rp 135.900,Rp 18.000,SN 104,Baru
-Jual Sepatu Olahraga / Sport / Running Wanita - IR 045 Murah,ir-045,"
+     </div><!--/category-tab-->",2019-01-16,html,sepatu-sport-wanita,catenzo,sepatu-sport-wanita,catenzo,"Sepatu Sport Wanita Bahan SINTETIS, Warna MERAH KOMBINASI, Size 36 ~ 40",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/df-064.jpg,-/-,-/-,-/-,-/-,-/-,Sepatu Sport Wanita - DF 064,Rp 201.900,Rp 164.900,Rp 181.900,DF 064,Baru
+Jual Sepatu Sport Wanita - RDF 033 Murah,rdf-033,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -456,7 +396,7 @@ Jual Sepatu Olahraga / Sport / Running Wanita - IR 045 Murah,ir-045,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -479,18 +419,8 @@ Jual Sepatu Olahraga / Sport / Running Wanita - IR 045 Murah,ir-045,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Sepatu Olahraga / Sport / Running Wanita - IR 045 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : IR 045<br/>Warna : HIJAU TOSKA<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 1000 gram<br/>Info Lainnya = SOL : PIU<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sepatu Sport Wanita - RDF 033 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RDF 033<br/>Warna : PINK<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 1100 gram<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
-                    </div>
-                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -502,8 +432,8 @@ Jual Sepatu Olahraga / Sport / Running Wanita - IR 045 Murah,ir-045,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,sepatu-sport-wanita,catenzo,sepatu-sport-wanita,catenzo,"Sepatu Sport Wanita Bahan SINTETIS, Ukuran 36 ~ 40, Warna HIJAU TOSKA",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/ir-045.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ir-045-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ir-045-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ir-045-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ir-045-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ir-045-e.jpg,Sepatu Olahraga / Sport / Running Wanita - IR 045,Rp 128.900,Rp 148.900,Rp 20.000,IR 045,Baru
-Jual Sepatu Olahraga / Sport / Running Wanita - HM 015 Murah,hm-015,"
+     </div><!--/category-tab-->",2019-01-17,html,sepatu-sport-wanita,raindoz,sepatu-sport-wanita,raindoz,"Sepatu Sport Wanita Bahan SINTETIS, Warna PINK, Size 36 ~ 40",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rdf-033.jpg,-/-,-/-,-/-,-/-,-/-,Sepatu Sport Wanita - RDF 033,Rp 201.900,Rp 164.900,Rp 181.900,RDF 033,Baru
+Jual Sepatu Sport Wanita - RDA 052 Murah,rda-052,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -528,7 +458,7 @@ Jual Sepatu Olahraga / Sport / Running Wanita - HM 015 Murah,hm-015,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -551,18 +481,8 @@ Jual Sepatu Olahraga / Sport / Running Wanita - HM 015 Murah,hm-015,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Sepatu Olahraga / Sport / Running Wanita - HM 015 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Wanita ini terbuat dari bahan CANVAS.<br/>Kode : HM 015<br/>Warna : HITAM<br/>Bahan : CANVAS<br/>Ukuran : 36 ~ 40<br/>Berat : 1000 gram<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sepatu Sport Wanita - RDA 052 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RDA 052<br/>Warna : PINK<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 1100 gram<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
-                    </div>
-                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -574,8 +494,8 @@ Jual Sepatu Olahraga / Sport / Running Wanita - HM 015 Murah,hm-015,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,sepatu-sport-wanita,catenzo,sepatu-sport-wanita,catenzo,"Sepatu Sport Wanita Bahan CANVAS, Ukuran 36 ~ 40, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/hm-015.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/hm-015-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/hm-015-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/hm-015-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/hm-015-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/hm-015-e.jpg,Sepatu Olahraga / Sport / Running Wanita - HM 015,Rp 129.900,Rp 149.900,Rp 20.000,HM 015,Baru
-Jual Sepatu Olahraga / Sport / Running Wanita - HM 020 Murah,hm-020,"
+     </div><!--/category-tab-->",2019-01-17,html,sepatu-sport-wanita,raindoz,sepatu-sport-wanita,raindoz,"Sepatu Sport Wanita Bahan SINTETIS, Warna PINK, Size 36 ~ 40",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rda-052.jpg,-/-,-/-,-/-,-/-,-/-,Sepatu Sport Wanita - RDA 052,Rp 162.900,Rp 132.900,Rp 146.900,RDA 052,Baru
+Jual Sepatu Sport Wanita - RDA 047 Murah,rda-047,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -600,7 +520,7 @@ Jual Sepatu Olahraga / Sport / Running Wanita - HM 020 Murah,hm-020,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -623,18 +543,8 @@ Jual Sepatu Olahraga / Sport / Running Wanita - HM 020 Murah,hm-020,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Sepatu Olahraga / Sport / Running Wanita - HM 020 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Wanita ini terbuat dari bahan CANVAS.<br/>Kode : HM 020<br/>Warna : CREAM<br/>Bahan : CANVAS<br/>Ukuran : 36 ~ 40<br/>Berat : 1000 gram<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sepatu Sport Wanita - RDA 047 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RDA 047<br/>Warna : ABU ABU<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 1100 gram<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
-                    </div>
-                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -646,8 +556,8 @@ Jual Sepatu Olahraga / Sport / Running Wanita - HM 020 Murah,hm-020,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,sepatu-sport-wanita,catenzo,sepatu-sport-wanita,catenzo,"Sepatu Sport Wanita Bahan CANVAS, Ukuran 36 ~ 40, Warna CREAM",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/hm-020.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/hm-020-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/hm-020-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/hm-020-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/hm-020-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/hm-020-e.jpg,Sepatu Olahraga / Sport / Running Wanita - HM 020,Rp 129.900,Rp 149.900,Rp 20.000,HM 020,Baru
-Jual Sepatu Olahraga / Sport / Running Wanita - HA 067 Murah,ha-067,"
+     </div><!--/category-tab-->",2019-01-17,html,sepatu-sport-wanita,raindoz,sepatu-sport-wanita,raindoz,"Sepatu Sport Wanita Bahan SINTETIS, Warna ABU ABU, Size 36 ~ 40",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rda-047.jpg,-/-,-/-,-/-,-/-,-/-,Sepatu Sport Wanita - RDA 047,Rp 162.900,Rp 132.900,Rp 146.900,RDA 047,Baru
+Jual Sepatu Sport Wanita - RBL 004 Murah,rbl-004,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -672,7 +582,7 @@ Jual Sepatu Olahraga / Sport / Running Wanita - HA 067 Murah,ha-067,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -695,18 +605,8 @@ Jual Sepatu Olahraga / Sport / Running Wanita - HA 067 Murah,ha-067,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Sepatu Olahraga / Sport / Running Wanita - HA 067 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : HA 067<br/>Warna : MERAH<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 1000 gram<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sepatu Sport Wanita - RBL 004 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RBL 004<br/>Warna : BIRU KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 1100 gram<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
-                    </div>
-                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -718,8 +618,8 @@ Jual Sepatu Olahraga / Sport / Running Wanita - HA 067 Murah,ha-067,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,sepatu-sport-wanita,catenzo,sepatu-sport-wanita,catenzo,"Sepatu Sport Wanita Bahan SINTETIS, Ukuran 36 ~ 40, Warna MERAH",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/ha-067.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ha-067-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ha-067-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ha-067-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ha-067-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ha-067-e.jpg,Sepatu Olahraga / Sport / Running Wanita - HA 067,Rp 131.900,Rp 151.900,Rp 20.000,HA 067,Baru
-Jual Sepatu Olahraga / Sport / Running Wanita - JA 015 Murah,ja-015,"
+     </div><!--/category-tab-->",2019-01-17,html,sepatu-sport-wanita,raindoz,sepatu-sport-wanita,raindoz,"Sepatu Sport Wanita Bahan SINTETIS, Warna BIRU KOMBINASI, Size 36 ~ 40",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rbl-004.jpg,-/-,-/-,-/-,-/-,-/-,Sepatu Sport Wanita - RBL 004,Rp 168.900,Rp 137.900,Rp 151.900,RBL 004,Baru
+Jual Sepatu Sport Wanita - RBL 005 Murah,rbl-005,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -744,7 +644,7 @@ Jual Sepatu Olahraga / Sport / Running Wanita - JA 015 Murah,ja-015,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -767,18 +667,8 @@ Jual Sepatu Olahraga / Sport / Running Wanita - JA 015 Murah,ja-015,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Sepatu Olahraga / Sport / Running Wanita - JA 015 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Wanita ini terbuat dari bahan CANVAS.<br/>Kode : JA 015<br/>Warna : HITAM<br/>Bahan : CANVAS<br/>Ukuran : 36 ~ 40<br/>Berat : 1000 gram<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sepatu Sport Wanita - RBL 005 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RBL 005<br/>Warna : HITAM KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 1100 gram<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
-                    </div>
-                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -790,8 +680,8 @@ Jual Sepatu Olahraga / Sport / Running Wanita - JA 015 Murah,ja-015,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,sepatu-sport-wanita,catenzo,sepatu-sport-wanita,catenzo,"Sepatu Sport Wanita Bahan CANVAS, Ukuran 36 ~ 40, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/ja-015.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ja-015-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ja-015-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ja-015-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ja-015-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ja-015-e.jpg,Sepatu Olahraga / Sport / Running Wanita - JA 015,Rp 90.900,Rp 104.900,Rp 14.000,JA 015,Baru
-Jual Sepatu Olahraga / Sport / Running Wanita - SD 023 Murah,sd-023,"
+     </div><!--/category-tab-->",2019-01-17,html,sepatu-sport-wanita,raindoz,sepatu-sport-wanita,raindoz,"Sepatu Sport Wanita Bahan SINTETIS, Warna HITAM KOMBINASI, Size 36 ~ 40",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rbl-005.jpg,-/-,-/-,-/-,-/-,-/-,Sepatu Sport Wanita - RBL 005,Rp 168.900,Rp 137.900,Rp 151.900,RBL 005,Baru
+Jual Sepatu Sport Wanita - RDA 046 Murah,rda-046,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -816,7 +706,7 @@ Jual Sepatu Olahraga / Sport / Running Wanita - SD 023 Murah,sd-023,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -839,18 +729,8 @@ Jual Sepatu Olahraga / Sport / Running Wanita - SD 023 Murah,sd-023,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Sepatu Olahraga / Sport / Running Wanita - SD 023 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : SD 023<br/>Warna : PUTIH<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 1000 gram<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sepatu Sport Wanita - RDA 046 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RDA 046<br/>Warna : CREAM KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 1100 gram<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
-                    </div>
-                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -862,1156 +742,4 @@ Jual Sepatu Olahraga / Sport / Running Wanita - SD 023 Murah,sd-023,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,sepatu-sport-wanita,catenzo,sepatu-sport-wanita,catenzo,"Sepatu Sport Wanita Bahan SINTETIS, Ukuran 36 ~ 40, Warna PUTIH",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/sd-023.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/sd-023-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/sd-023-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/sd-023-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/sd-023-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/sd-023-e.jpg,Sepatu Olahraga / Sport / Running Wanita - SD 023,Rp 125.900,Rp 144.900,Rp 19.000,SD 023,Baru
-Jual Sepatu Olahraga / Sport / Running Wanita - MR 773 Murah,mr-773,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
-           <script type=""text/javascript"">
-   <!--
-   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
-   //-->
-   </script>
-          </a>
-         </label>
-        </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include shareit.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Sepatu Olahraga / Sport / Running Wanita - MR 773 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : MR 773<br/>Warna : PUTIH BIRU<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 1000 gram<br/>Info Lainnya = SOL : TPR : BAHAN : VICTORA & LEONARDO<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
-         </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
-                    </div>
-                    <br/>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2018-02-25,html,sepatu-sport-wanita,catenzo,sepatu-sport-wanita,catenzo,"Sepatu Sport Wanita Bahan SINTETIS, Ukuran 36 ~ 40, Warna PUTIH BIRU",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/mr-773.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/mr-773-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/mr-773-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/mr-773-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/mr-773-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/mr-773-e.jpg,Sepatu Olahraga / Sport / Running Wanita - MR 773,Rp 140.900,Rp 162.900,Rp 22.000,MR 773,Baru
-Jual Sepatu Olahraga / Sport / Running Wanita - MR 771 Murah,mr-771,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
-           <script type=""text/javascript"">
-   <!--
-   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
-   //-->
-   </script>
-          </a>
-         </label>
-        </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include shareit.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Sepatu Olahraga / Sport / Running Wanita - MR 771 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : MR 771<br/>Warna : ABU KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 1000 gram<br/>Info Lainnya = SOL : TPR, BAHAN : SIREN & SANDWICH<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
-         </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
-                    </div>
-                    <br/>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2018-02-25,html,sepatu-sport-wanita,catenzo,sepatu-sport-wanita,catenzo,"Sepatu Sport Wanita Bahan SINTETIS, Ukuran 36 ~ 40, Warna ABU KOMBINASI",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/mr-771.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/mr-771-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/mr-771-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/mr-771-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/mr-771-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/mr-771-e.jpg,Sepatu Olahraga / Sport / Running Wanita - MR 771,Rp 140.900,Rp 162.900,Rp 22.000,MR 771,Baru
-Jual Sepatu Olahraga / Sport / Running Wanita - UR 001 Murah,ur-001,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
-           <script type=""text/javascript"">
-   <!--
-   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
-   //-->
-   </script>
-          </a>
-         </label>
-        </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include shareit.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Sepatu Olahraga / Sport / Running Wanita - UR 001 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : UR 001<br/>Warna : BIRU<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 1000 gram<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
-         </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
-                    </div>
-                    <br/>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2018-02-25,html,sepatu-sport-wanita,catenzo,sepatu-sport-wanita,catenzo,"Sepatu Sport Wanita Bahan SINTETIS, Ukuran 36 ~ 40, Warna BIRU",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/ur-001.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ur-001-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ur-001-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ur-001-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ur-001-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ur-001-e.jpg,Sepatu Olahraga / Sport / Running Wanita - UR 001,Rp 133.900,Rp 153.900,Rp 20.000,UR 001,Baru
-Jual Sepatu Olahraga / Sport / Running Wanita - AT 098 Murah,at-098,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
-           <script type=""text/javascript"">
-   <!--
-   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
-   //-->
-   </script>
-          </a>
-         </label>
-        </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include shareit.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Sepatu Olahraga / Sport / Running Wanita - AT 098 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : AT 098<br/>Warna : PINK<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 1000 gram<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
-         </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
-                    </div>
-                    <br/>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2018-02-25,html,sepatu-sport-wanita,catenzo,sepatu-sport-wanita,catenzo,"Sepatu Sport Wanita Bahan SINTETIS, Ukuran 36 ~ 40, Warna PINK",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/at-098.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/at-098-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/at-098-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/at-098-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/at-098-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/at-098-e.jpg,Sepatu Olahraga / Sport / Running Wanita - AT 098,Rp 131.900,Rp 151.900,Rp 20.000,AT 098,Baru
-Jual Sepatu Olahraga / Sport / Running Wanita - IR 001 Murah,ir-001,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
-           <script type=""text/javascript"">
-   <!--
-   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
-   //-->
-   </script>
-          </a>
-         </label>
-        </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include shareit.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Sepatu Olahraga / Sport / Running Wanita - IR 001 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : IR 001<br/>Warna : HITAM KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 1000 gram<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
-         </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
-                    </div>
-                    <br/>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2018-02-25,html,sepatu-sport-wanita,catenzo,sepatu-sport-wanita,catenzo,"Sepatu Sport Wanita Bahan SINTETIS, Ukuran 36 ~ 40, Warna HITAM KOMBINASI",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/ir-001.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ir-001-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ir-001-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ir-001-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ir-001-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ir-001-e.jpg,Sepatu Olahraga / Sport / Running Wanita - IR 001,Rp 125.900,Rp 144.900,Rp 19.000,IR 001,Baru
-Jual Sepatu Olahraga / Sport / Running Wanita - AT 112 Murah,at-112,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
-           <script type=""text/javascript"">
-   <!--
-   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
-   //-->
-   </script>
-          </a>
-         </label>
-        </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include shareit.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Sepatu Olahraga / Sport / Running Wanita - AT 112 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : AT 112<br/>Warna : HITAM<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 1000 gram<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
-         </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
-                    </div>
-                    <br/>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2018-02-25,html,sepatu-sport-wanita,catenzo,sepatu-sport-wanita,catenzo,"Sepatu Sport Wanita Bahan SINTETIS, Ukuran 36 ~ 40, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/at-112.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/at-112-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/at-112-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/at-112-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/at-112-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/at-112-e.jpg,Sepatu Olahraga / Sport / Running Wanita - AT 112,Rp 131.900,Rp 151.900,Rp 20.000,AT 112,Baru
-Jual Sepatu Olahraga / Sport / Running Wanita - HF 012 Murah,hf-012,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
-           <script type=""text/javascript"">
-   <!--
-   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
-   //-->
-   </script>
-          </a>
-         </label>
-        </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include shareit.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Sepatu Olahraga / Sport / Running Wanita - HF 012 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : HF 012<br/>Warna : UNGU<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 1000 gram<br/>Info Lainnya = SOL : PIU<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
-         </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
-                    </div>
-                    <br/>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2018-02-25,html,sepatu-sport-wanita,catenzo,sepatu-sport-wanita,catenzo,"Sepatu Sport Wanita Bahan SINTETIS, Ukuran 36 ~ 40, Warna UNGU",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/hf-012.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/hf-012-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/hf-012-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/hf-012-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/hf-012-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/hf-012-e.jpg,Sepatu Olahraga / Sport / Running Wanita - HF 012,Rp 133.900,Rp 153.900,Rp 20.000,HF 012,Baru
-Jual Sepatu Olahraga / Sport / Running Wanita - IM 016 Murah,im-016,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
-           <script type=""text/javascript"">
-   <!--
-   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
-   //-->
-   </script>
-          </a>
-         </label>
-        </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include shareit.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Sepatu Olahraga / Sport / Running Wanita - IM 016 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Wanita ini terbuat dari bahan CANVAS.<br/>Kode : IM 016<br/>Warna : ABU ABU<br/>Bahan : CANVAS<br/>Ukuran : 36 ~ 40<br/>Berat : 1000 gram<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
-         </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
-                    </div>
-                    <br/>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2018-02-25,html,sepatu-sport-wanita,catenzo,sepatu-sport-wanita,catenzo,"Sepatu Sport Wanita Bahan CANVAS, Ukuran 36 ~ 40, Warna ABU ABU",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/im-016.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/im-016-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/im-016-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/im-016-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/im-016-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/im-016-e.jpg,Sepatu Olahraga / Sport / Running Wanita - IM 016,Rp 114.900,Rp 132.900,Rp 18.000,IM 016,Baru
-Jual Sepatu Olahraga / Sport / Running Wanita - DD 027 Murah,dd-027,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
-           <script type=""text/javascript"">
-   <!--
-   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
-   //-->
-   </script>
-          </a>
-         </label>
-        </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include shareit.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Sepatu Olahraga / Sport / Running Wanita - DD 027 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : DD 027<br/>Warna : BIRU KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 1000 gram<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
-         </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
-                    </div>
-                    <br/>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2018-02-25,html,sepatu-sport-wanita,catenzo,sepatu-sport-wanita,catenzo,"Sepatu Sport Wanita Bahan SINTETIS, Ukuran 36 ~ 40, Warna BIRU KOMBINASI",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/dd-027.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dd-027-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dd-027-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dd-027-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dd-027-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dd-027-e.jpg,Sepatu Olahraga / Sport / Running Wanita - DD 027,Rp 140.900,Rp 162.900,Rp 22.000,DD 027,Baru
-Jual Sepatu Olahraga / Sport / Running Wanita - DD 029 Murah,dd-029,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
-           <script type=""text/javascript"">
-   <!--
-   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
-   //-->
-   </script>
-          </a>
-         </label>
-        </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include shareit.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Sepatu Olahraga / Sport / Running Wanita - DD 029 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : DD 029<br/>Warna : PUTIH<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 1000 gram<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
-         </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
-                    </div>
-                    <br/>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2018-02-25,html,sepatu-sport-wanita,catenzo,sepatu-sport-wanita,catenzo,"Sepatu Sport Wanita Bahan SINTETIS, Ukuran 36 ~ 40, Warna PUTIH",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/dd-029.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dd-029-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dd-029-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dd-029-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dd-029-d.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/dd-029-e.jpg,Sepatu Olahraga / Sport / Running Wanita - DD 029,Rp 140.900,Rp 162.900,Rp 22.000,DD 029,Baru
-Jual Sepatu Olahraga / Sport / Running Wanita - RDF 020 Murah,rdf-020,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
-           <script type=""text/javascript"">
-   <!--
-   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
-   //-->
-   </script>
-          </a>
-         </label>
-        </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include shareit.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Sepatu Olahraga / Sport / Running Wanita - RDF 020 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RDF 020<br/>Warna : ABU ABU<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 1000 gram<br/>Info Lainnya = SOL : KARET<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
-         </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
-                    </div>
-                    <br/>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2018-02-26,html,sepatu-sport-wanita,raindoz,sepatu-sport-wanita,raindoz,"Sepatu Sport Wanita Bahan SINTETIS, Ukuran 36 ~ 40, Warna ABU ABU",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rdf-020.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rdf-020-a.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rdf-020-b.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rdf-020-c.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rdf-020-d.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rdf-020-e.jpg,Sepatu Olahraga / Sport / Running Wanita - RDF 020,Rp 166.900,Rp 191.900,Rp 25.000,RDF 020,Baru
-Jual Sepatu Olahraga / Sport / Running Wanita - RFY 006 Murah,rfy-006,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
-           <script type=""text/javascript"">
-   <!--
-   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
-   //-->
-   </script>
-          </a>
-         </label>
-        </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include shareit.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Sepatu Olahraga / Sport / Running Wanita - RFY 006 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RFY 006<br/>Warna : HITAM<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 1000 gram<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
-         </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
-                    </div>
-                    <br/>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2018-02-26,html,sepatu-sport-wanita,raindoz,sepatu-sport-wanita,raindoz,"Sepatu Sport Wanita Bahan SINTETIS, Ukuran 36 ~ 40, Warna HITAM",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rfy-006.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rfy-006-a.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rfy-006-b.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rfy-006-c.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rfy-006-d.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rfy-006-e.jpg,Sepatu Olahraga / Sport / Running Wanita - RFY 006,Rp 135.900,Rp 156.900,Rp 21.000,RFY 006,Baru
-Jual Sepatu Olahraga / Sport / Running Wanita - RSN 101 Murah,rsn-101,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
-           <script type=""text/javascript"">
-   <!--
-   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
-   //-->
-   </script>
-          </a>
-         </label>
-        </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include shareit.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Sepatu Olahraga / Sport / Running Wanita - RSN 101 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RSN 101<br/>Warna : HITAM KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 1000 gram<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
-         </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
-                    </div>
-                    <br/>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2018-02-26,html,sepatu-sport-wanita,raindoz,sepatu-sport-wanita,raindoz,"Sepatu Sport Wanita Bahan SINTETIS, Ukuran 36 ~ 40, Warna HITAM KOMBINASI",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rsn-101.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rsn-101-a.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rsn-101-b.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rsn-101-c.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rsn-101-d.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rsn-101-e.jpg,Sepatu Olahraga / Sport / Running Wanita - RSN 101,Rp 117.900,Rp 135.900,Rp 18.000,RSN 101,Baru
-Jual Sepatu Olahraga / Sport / Running Wanita - RFY 008 Murah,rfy-008,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
-           <script type=""text/javascript"">
-   <!--
-   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
-   //-->
-   </script>
-          </a>
-         </label>
-        </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include shareit.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Sepatu Olahraga / Sport / Running Wanita - RFY 008 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RFY 008<br/>Warna : PINK<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 1000 gram<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
-         </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
-                    </div>
-                    <br/>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2018-02-26,html,sepatu-sport-wanita,raindoz,sepatu-sport-wanita,raindoz,"Sepatu Sport Wanita Bahan SINTETIS, Ukuran 36 ~ 40, Warna PINK",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rfy-008.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rfy-008-a.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rfy-008-b.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rfy-008-c.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rfy-008-d.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rfy-008-e.jpg,Sepatu Olahraga / Sport / Running Wanita - RFY 008,Rp 129.900,Rp 149.900,Rp 20.000,RFY 008,Baru
-Jual Sepatu Olahraga / Sport / Running Wanita - RFY 009 Murah,rfy-009,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
-           <script type=""text/javascript"">
-   <!--
-   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
-   //-->
-   </script>
-          </a>
-         </label>
-        </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include shareit.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Sepatu Olahraga / Sport / Running Wanita - RFY 009 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RFY 009<br/>Warna : ABU ABU<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 1000 gram<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
-         </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
-                    </div>
-                    <br/>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2018-02-26,html,sepatu-sport-wanita,raindoz,sepatu-sport-wanita,raindoz,"Sepatu Sport Wanita Bahan SINTETIS, Ukuran 36 ~ 40, Warna ABU ABU",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rfy-009.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rfy-009-a.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rfy-009-b.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rfy-009-c.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rfy-009-d.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rfy-009-e.jpg,Sepatu Olahraga / Sport / Running Wanita - RFY 009,Rp 129.900,Rp 149.900,Rp 20.000,RFY 009,Baru
-Jual Sepatu Olahraga / Sport / Running Wanita - RSN 102 Murah,rsn-102,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
-           <script type=""text/javascript"">
-   <!--
-   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
-   //-->
-   </script>
-          </a>
-         </label>
-        </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include shareit.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Sepatu Olahraga / Sport / Running Wanita - RSN 102 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RSN 102<br/>Warna : ABU KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : 36 ~ 40<br/>Berat : 1000 gram<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
-         </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
-                    </div>
-                    <br/>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2018-02-26,html,sepatu-sport-wanita,raindoz,sepatu-sport-wanita,raindoz,"Sepatu Sport Wanita Bahan SINTETIS, Ukuran 36 ~ 40, Warna ABU KOMBINASI",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rsn-102.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rsn-102-a.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rsn-102-b.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rsn-102-c.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rsn-102-d.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rsn-102-e.jpg,Sepatu Olahraga / Sport / Running Wanita - RSN 102,Rp 117.900,Rp 135.900,Rp 18.000,RSN 102,Baru
+     </div><!--/category-tab-->",2019-01-17,html,sepatu-sport-wanita,raindoz,sepatu-sport-wanita,raindoz,"Sepatu Sport Wanita Bahan SINTETIS, Warna CREAM KOMBINASI, Size 36 ~ 40",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rda-046.jpg,-/-,-/-,-/-,-/-,-/-,Sepatu Sport Wanita - RDA 046,Rp 162.900,Rp 132.900,Rp 146.900,RDA 046,Baru
